@@ -1,0 +1,170 @@
+
+/* 
+Edumodo core plugin css
+Version: 2.6.4
+*/
+
+/*------------------------------------------- 
+---------- Element LP Course Search-------------
+--------------------------------------------*/
+.lp-course-form-wrapper {
+  display: flex;
+  overflow: hidden;
+}
+.lp-course-form-wrapper .lp-course-btn {
+  transition: all .8s ease;
+}
+
+
+/*------------------------------------------- 
+---------- Subscribe -------------
+--------------------------------------------*/
+.edumodo-elementor-subscribe form.wpforms-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  margin: 0;
+  padding: 0;
+}
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=date],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=datetime],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=datetime-local],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=email],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=month],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=number],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=password],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=range],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=search],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=tel],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=text],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=time],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=url],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=week],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form select,
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form textarea {
+  background-color: #ffffff;
+  border-radius: 5px 5px 5px 5px;
+  padding: 23px 25px 23px 25px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  box-shadow: 0px 4px 5px 0px rgba(251, 136, 159, 0.35);
+  width: 300px;
+}
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form input[type=submit],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form button[type=submit],
+.edumodo-elementor-subscribe div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 25px 10px 25px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  box-shadow: 0px 4px 5px 0px rgba(251, 136, 159, 0.35);
+  margin-left: 10px;
+}
+/* Subscribe 2 */
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full {
+  margin-bottom: 0;
+}
+.edumodo-wpforms-subscribe-2 form.wpforms-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+  margin: 0;
+  padding: 0;
+}
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=date],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=datetime],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=datetime-local],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=email],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=month],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=number],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=password],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=range],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=search],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=tel],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=text],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=time],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=url],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=week],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form select,
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form textarea {
+background-color: #ffffff;
+padding: 23px 25px 23px 25px;
+border: 1px solid #1F1F8C;
+    width: 300px;
+}
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=submit],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form button[type=submit],
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 0;
+  padding: 11px 25px 11px 25px;
+  margin-left: 10px;
+  border: 1px solid #1F1F8C;
+  background-color: #1F1F8C;
+}
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form input[type=submit]:hover,
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+.edumodo-wpforms-subscribe-2 div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{
+  background-color: transparent;
+  border: 1px solid #1F1F8C;
+  color: #1F1F8C
+}
+/*------------------------------------------- 
+---------- Testimonial 2 -------------
+--------------------------------------------*/
+.edumodo-testi-2 {
+}
+.edumodo-testi-2 .edumodo-testi-single {
+  box-shadow: 0px 0px 8px rgba(109, 115, 130, 0.26);
+    padding: 30px;
+    margin: 30px 0;
+    background:#fff;
+  
+}     
+.edumodo-testi-2 .testi-img{
+    max-width: 70px;
+    float: left;
+    display: inline-block;
+}
+
+.edumodo-testi-2 .testi-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 0px solid #fff;
+}
+.edumodo-testi-2 .testi-info {
+  display   : inline-block;
+  left      : initial;
+}
+.edumodo-testi-2 .name {
+  margin: 0 10px 10px 25px;
+  color: #304BCB;
+  font-size: 18px;
+}
+.edumodo-testi-2 .degree {
+  margin-left: 25px;
+}
+.edumodo-testi-2 .owl-dots {
+  text-align: center;
+}
+
+.edumodo-testi-2 button.owl-dot {
+  padding      : 7px;
+  margin       : 5px;
+  border-radius: 50px;
+  background   : #ecb101;
+  border       : none;
+}
+
+.edumodo-testi-2 button.owl-dot.active {
+  background : #ecb101;
+}

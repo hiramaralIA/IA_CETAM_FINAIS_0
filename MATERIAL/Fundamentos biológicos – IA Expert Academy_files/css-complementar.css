@@ -1,0 +1,1802 @@
+
+/* Home page Slider */
+
+.edumodo-slider{position:relative}.edumodo-slider .carousel-indicators{position:absolute;bottom:10px;left:inherit;right:inherit;z-index:15;width:100%;padding-left:0;margin-left:0;text-align:center;list-style:none;display:flex;justify-content:center;align-items:center}.edumodo-hero-unit.edumodo-slider-pro{position:relative}.edumodo-hero-unit.edumodo-slider-pro .carousel{overflow:hidden}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control.right-control,.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control.left-control{opacity:1;transition:all 0.3s ease;margin:0 60px}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control{-webkit-transition:all .4s;-moz-transition:all .4s;-ms-transition:all .4s;-o-transition:all .4s;transition:all .4s}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control.left{margin-left:0;margin-left:-40px}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-controlright{margin-right:0;background-image:none;margin-right:-40px;right:0;left:auto}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover.right-control,.edumodo-hero-unit.edumodo-slider-pro .carousel:hover.left-control{background-image:none;background-repeat:no-repeat;margin:0 50px;height:35px;width:35px;line-height:35px;opacity:0;top:45%;border-radius:0;transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item{height:100vh}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item>img,.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item>a>img{width:100%;height:100%}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item:before{position:absolute;content:"";width:100%;height:100%;left:0;right:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption{left:0;right:0;color:#fff}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption ul li{position:relative;padding-left:25px}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption ul li:before{content:"\f046";font-family:'FontAwesome';position:absolute;left:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption .slider-top{padding-bottom:0;margin-bottom:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption .slider-title{color:#fff;font-size:56px;font-weight:700;margin:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption .slider-title span{color:#214772}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-inner .item .carousel-caption .slider-description{margin:auto;font-size:16px;text-shadow:none!important}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-indicators li{width:15px;height:6px;border-radius:2px;margin:0 3px;border:1px transparent;transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-indicators li.active{width:20px;margin:0 3px}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control.left{margin-left:20px}.edumodo-hero-unit.edumodo-slider-pro .carousel:hover .carousel-control.right{margin-right:20px}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control.right{background-image:none}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control{top:45%;bottom:auto;width:50px;height:50px;z-index:10;opacity:1;border-radius:50px;-webkit-transition:all .4s;-moz-transition:all .4s;-ms-transition:all .4s;-o-transition:all .4s;transition:all .4s}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control:hover:before{opacity:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control:before{content:"";position:absolute;width:1px;height:20px;top:14px;bottom:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .left{transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .left:before{left:-1px;right:0}.edumodo-hero-unit.edumodo-slider-pro .carousel .left:hover i{transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .right{transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .right:before{right:-1px}.edumodo-hero-unit.edumodo-slider-pro .carousel .right:hover i{transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control{border:1px solid #fff;display:flex;align-items:center;justify-content:center}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control i{display:flex;align-items:center;justify-content:center;font-size:18px;text-shadow:none;transition:all 0.3s ease}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control.left{background-image:none}.edumodo-hero-unit.edumodo-slider-pro .carousel .carousel-control.right{background-image:none}.animate-delay-1{animation-delay:.7s;-webkit-animation-delay:.7s;-moz-animation-delay:.7s;-o-animation-delay:.7s}.animate-delay-2{animation-delay:1.1s;-webkit-animation-delay:1.1s;-moz-animation-delay:1.1s;-o-animation-delay:1.1s}.animate-delay-3{animation-delay:1.5s;-webkit-animation-delay:1.5s;-moz-animation-delay:1.5s;-o-animation-delay:1.5s}.animate-delay-4{animation-delay:2s;-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s}@media only screen and (min-width:992px){.slider-relative{position:relative}.slider-absolute{position:absolute!important;bottom:0;left:0;right:0}}.slider-description ul{list-style:none;padding-left:0}.elementor-button-text{text-shadow:none}.edumodo-hero-unit{position:relative}.edumodo-hero-unit .carousel{overflow:hidden}.edumodo-hero-unit .carousel:hover .carousel-control.right-control,.edumodo-hero-unit .carousel:hover .carousel-control.left-control{opacity:1;transition:all 0.3s ease;margin:0 60px}.edumodo-hero-unit .carousel:hover .carousel-control{-webkit-transition:all .4s;-moz-transition:all .4s;-ms-transition:all .4s;-o-transition:all .4s;transition:all .4s}.edumodo-hero-unit .carousel:hover .carousel-control.left{margin-left:0;margin-left:-40px}.edumodo-hero-unit .carousel:hover .carousel-controlright{margin-right:0;background-image:none;margin-right:-40px;right:0;left:auto}.edumodo-hero-unit .carousel:hover.right-control,.edumodo-hero-unit .carousel:hover.left-control{background-image:none;background-repeat:no-repeat;margin:0 50px;height:35px;width:35px;line-height:35px;opacity:0;top:45%;border-radius:0;transition:all 0.3s ease}.edumodo-hero-unit .carousel .carousel-inner .item{height:100vh}.edumodo-hero-unit .carousel .carousel-inner .item>img,.edumodo-hero-unit .carousel .carousel-inner .item>a>img{width:100%;height:100%}.edumodo-hero-unit .carousel .carousel-inner .item:before{position:absolute;content:"";width:100%;height:100%;left:0;right:0}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption{left:0;right:0;color:#fff}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption .slider-title{color:#fff;font-size:56px;font-weight:700}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption .slider-title span{color:#214772}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption .btn-slider{font-weight:600;transition:all 0.3s ease;background:#214772}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption .btn-slider:hover{background:#214772;transition:all 0.3s ease}.edumodo-hero-unit .carousel .carousel-inner .item .carousel-caption .slider-description{margin:auto;font-size:16px}.edumodo-hero-unit .carousel .carousel-indicators li{width:15px;height:6px;border-radius:2px;margin:0 3px;border:1px transparent;transition:all 0.3s ease}.edumodo-hero-unit .carousel .carousel-indicators li.active{width:20px;margin:0 3px}.edumodo-hero-unit .carousel:hover .carousel-control.left{margin-left:20px}.edumodo-hero-unit .carousel:hover .carousel-control.right{margin-right:20px}.edumodo-hero-unit .carousel .carousel-control.right{background-image:none}.edumodo-hero-unit .carousel .carousel-control{top:45%;bottom:auto;width:50px;height:50px;line-height:50px;z-index:10;opacity:1;border-radius:50px;-webkit-transition:all .4s;-moz-transition:all .4s;-ms-transition:all .4s;-o-transition:all .4s;transition:all .4s}.edumodo-hero-unit .carousel .carousel-control:hover:before{opacity:0}.edumodo-hero-unit .carousel .carousel-control:before{content:"";position:absolute;width:1px;height:20px;top:14px;bottom:0}.edumodo-hero-unit .carousel .left{transition:all 0.3s ease}.edumodo-hero-unit .carousel .left:before{left:-1px;right:0}.edumodo-hero-unit .carousel .left:hover i{transition:all 0.3s ease}.edumodo-hero-unit .carousel .right{transition:all 0.3s ease}.edumodo-hero-unit .carousel .right:before{right:-1px}.edumodo-hero-unit .carousel .right:hover i{transition:all 0.3s ease}.edumodo-hero-unit .carousel .carousel-control i{text-shadow:none;transition:all 0.3s ease;display:flex;align-items:center;justify-content:center;font-size:18px}.edumodo-hero-unit .carousel .carousel-control.left{margin-left:-50px;background-image:none}.edumodo-hero-unit .carousel .carousel-control.right{margin-right:-50px;background-image:none}.animate-delay-1{animation-delay:.7s;-webkit-animation-delay:.7s;-moz-animation-delay:.7s;-o-animation-delay:.7s}.animate-delay-2{animation-delay:1.1s;-webkit-animation-delay:1.1s;-moz-animation-delay:1.1s;-o-animation-delay:1.1s}.animate-delay-3{animation-delay:1.5s;-webkit-animation-delay:1.5s;-moz-animation-delay:1.5s;-o-animation-delay:1.5s}.animate-delay-4{animation-delay:2s;-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s}@media only screen and (min-width:992px){.slider-relative{position:relative}.slider-absolute{position:absolute!important;bottom:0;left:0;right:0}}.carousel .carousel-inner .carousel-caption .btn-slider{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}.carousel .carousel-inner .carousel-caption .btn-slider:hover{-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
+
+/*--------------------------------------------------------------
+# Learndash Course Element css
+--------------------------------------------------------------*/
+.ld_course_grid {
+  position: relative;
+}
+.ld_course_grid .entry-title {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 0;
+}
+#ld_course_list .entry-content,
+.ld_course_grid_button .entry-content {
+  margin-bottom: 20px;
+}
+#ld_course_list .ld_course_grid:hover .thumbnail,
+.ld_course_grid_button .ld_course_grid:hover .thumbnail {
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#ld_course_list .thumbnail,
+.ld_course_grid_button .thumbnail {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0 !important;
+  border: none !important;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#ld_course_list .thumbnail.course .ld_course_grid_price:before,
+.ld_course_grid_button .thumbnail.course .ld_course_grid_price:before {
+  border-top: 4px solid #214772;
+  border-right: 4px solid #214772;
+}
+#ld_course_list .thumbnail.course .ld_course_grid_price,
+.ld_course_grid_button .thumbnail.course .ld_course_grid_price,
+#ld_course_list .thumbnail.course .ld_course_grid_price.ribbon-enrolled,
+.ld_course_grid_button .thumbnail.course .ld_course_grid_price.ribbon-enrolled {
+  background-color: #214772;
+}
+#ld_course_list .thumbnail.course .ld_course_grid_price,
+.ld_course_grid_button .thumbnail.course .ld_course_grid_price {
+  text-shadow: none;
+  z-index: 1;
+}
+#ld_course_list .thumbnail .caption,
+.ld_course_grid_button .thumbnail .caption {
+  padding: 20px !important;
+}
+#ld_course_list .btn-primary,
+.ld_course_grid_button .btn-primary,
+.ld-course-list-items .ld_course_grid .btn-primary {
+  border-radius: 50px;
+  background: transparent;
+  border-color: #214772;
+  font-weight: 600;
+  padding: 7px 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#ld_course_list .btn-primary:hover,
+.ld_course_grid_button .btn-primary:hover {
+  background: #214772;
+  border-color: #214772;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: white;
+}
+#ld_course_list .btn,
+.ld_course_grid_button .btn,
+.ld-course-list-items .ld_course_grid .btn-primary {
+  color: #214772;
+  border-width: 2px;
+  width: auto  !important;
+}
+.ld-course-list-items .ld_course_grid .btn-primary:hover,
+.ld-course-list-items .ld_course_grid .thumbnail.course a.btn-primary:hover {
+  color: #fff;
+}
+#ld_course_list .ld-course-list-items .ld_course_grid .thumbnail .caption p,
+.ld_course_grid_button .ld-course-list-items .ld_course_grid .thumbnail .caption p {
+  width: intrinsic !important;
+  /* Safari/WebKit uses a non-standard name */
+  width: -moz-max-content !important;
+  /* Firefox/Gecko */
+  width: -webkit-max-content !important;
+  /* Chrome */
+  max-width: 100%;
+}
+.btn-join,
+#btn-join,
+.learndash_checkout_buttons input.btn-join[type="button"],
+a#quiz_continue_link {
+  background: #214772;
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.btn-join:hover,
+#btn-join:hover,
+.learndash_checkout_buttons input.btn-join[type="button"]:hover,
+a#quiz_continue_link:hover {
+  background: #242c5e;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.learndash_join_button {
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+}
+.expand_collapse:hover a {
+  color: #214772;
+}
+#learndash_lessons,
+#learndash_quizzes,
+.expand_collapse,
+.notavailable_message,
+#learndash_lesson_topics_list div > strong,
+#learndash_lesson_topics_list div ul > li .sn,
+.learndash_profile_heading,
+#learndash_profile a,
+#learndash_profile div {
+  font-size: 14px;
+}
+#learndash_lessons,
+#learndash_quizzes,
+#learndash_profile,
+#learndash_lesson_topics_list > div {
+  border-radius: 0;
+  margin-top: 22px;
+  box-shadow: none;
+}
+.learndash .notcompleted,
+#learndash_profile .notcompleted {
+  background-size: 35px;
+  line-height: 40px;
+}
+#lessons_list > div h4 > a,
+#course_list > div h4 > a,
+#quiz_list > div h4 > a {
+  color: #666;
+  font-size: 14px;
+}
+.learndash .learndash_topic_dots.type-list a > span {
+  color: #666;
+  font-size: 14px;
+}
+#learndash_course_content .learndash_topic_dots ul > li:hover,
+#learndash_lessons h4 > a:hover,
+#learndash_quizzes h4 > a:hover,
+#learndash_lesson_topics_list ul > li > span.topic_item:hover {
+  background-color: #ffeeba;
+}
+.expand_collapse a,
+#learndash_profile .expand_collapse a {
+  font-size: 14px;
+}
+.single-sfwd-courses .single-post .entry-content ul li {
+  margin-left: 0;
+}
+.learndash #lessons_list > div h4 > a,
+.learndash #course_list > div h4 > a,
+.learndash #quiz_list > div h4 > a {
+  background-size: 40px;
+}
+.learndash .notcompleted,
+#learndash_profile .notcompleted {
+  background-image: url('../images/notcompleted.png');
+}
+.learndash .topic-notcompleted span {
+  background: url(../images/notcompleted_t.png) no-repeat scroll 0 5px transparent;
+}
+.learndash .completed,
+#learndash_profile .completed {
+  background-image: url('../images/completed.png');
+}
+form#sfwd-mark-complete input {
+  padding: 12px 20px;
+}
+p#learndash_next_prev_link:hover a,
+p#learndash_prev_prev_link:hover a,
+#learndash_back_to_lesson:hover a {
+  color: #214772;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.lpcourse-sidebar.ldcourse-sidebar.sidebar-devider .learndash_checkout_buttons {
+  padding-bottom: 40px;
+}
+.lpcourse-sidebar.ldcourse-sidebar.sidebar-devider .ld_course_grid_price.ribbon-enrolled {
+  padding-bottom: 30px;
+}
+.ld-r-description {
+  padding-bottom: 12px;
+}
+.lp-enroll i.fa.fa-money {
+  margin-right: 5px;
+}
+.course-summary.ld-course-summary {
+  background: #fff;
+  padding: 30px;
+}
+.course-summary.ld-course-summary .learndash_checkout_buttons {
+  display: none;
+}
+.course-summary.ld-course-summary .learndash_join_button {
+  display: none;
+}
+.lpcourse-sidebar.ldcourse-sidebar .edumodo-course-info > .widget:last-child {
+  padding-bottom: 40px;
+}
+.lpcourse-sidebar.ldcourse-sidebar .edumodo-course-info {
+  padding: 0;
+}
+.lpcourse-sidebar.ldcourse-sidebar .widget-area .widget {
+  box-shadow: none;
+  transition: all 0.3s ease;
+  padding: 20px 20px 10px 20px;
+  margin: 0;
+}
+.widget-area .widget {
+  padding: 40px 30px;
+}
+.lpcourse-sidebar.ldcourse-sidebar .learndash_checkout_buttons .learndash_checkout_button {
+  max-width: inherit;
+  margin-right: 0;
+  width: 100%;
+}
+.lpcourse-sidebar.ldcourse-sidebar .btn-join,
+.lpcourse-sidebar.ldcourse-sidebar #btn-join,
+.lpcourse-sidebar.ldcourse-sidebar .learndash_checkout_buttons input.btn-join[type="button"],
+.lpcourse-sidebar.ldcourse-sidebar a#quiz_continue_link {
+  padding: 10px 28px;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+.edumodo-ld-course p.ld_course_grid_button {
+  margin-top: 20px;
+}
+.edumodo-ld-course .tx-course {
+  height: 450px;
+}
+.edumodo-ld-course .thumbnail {
+  padding: 0;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.edumodo-ld-course .thumbnail.course .ld_course_grid_price {
+  background: #214772;
+  box-shadow: none;
+  color: white;
+  text-shadow: none;
+  position: absolute;
+  font-size: 14px;
+  left: -8px;
+  top: 10px;
+  padding: 3px 10px;
+  z-index: 2;
+  font-weight: bold;
+}
+.edumodo-ld-course .thumbnail.course .ld_course_grid_price:before {
+  border: 4px solid transparent;
+  border-top: 4px solid #214772;
+  border-right: 4px solid #214772;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+.edumodo-ld-course .ld_course_grid_price.ribbon-enrolled {
+  background-color: #214772;
+  text-shadow: none;
+}
+.edumodo-ld-course .ld_course_grid {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.edumodo-ld-course .ld_course_grid:hover .thumbnail {
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.edumodo-ld-course .thumbnail .caption {
+  padding: 20px !important;
+}
+.edumodo-ld-course .ld_course_grid .entry-title {
+  margin: 0;
+}
+.course_navigation .learndash_navigation_lesson_topics_list .lesson {
+  margin: 0 0 5px 5px;
+}
+.learndash-pager a {
+  background-color: #214772;
+  padding: 4px 15px;
+  color: white;
+  font-size: 22px;
+}
+.learndash-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.addon-price-wapper {
+  position: absolute;
+  left: -10px;
+  top: 25px;
+  z-index: 1;
+  background: #fffffff2;
+  padding: 5px 10px;
+  border-radius: 0 2px 3px 0;
+}
+.addon-price-wapper::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 0;
+  width: 10px;
+  height: 100%;
+  top: 10px;
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+  transform: rotate(45deg);
+}
+/*------------------------------------------- 
+---------- LearnDash v3 -------------
+--------------------------------------------*/
+.ld-single-layout-2 .ld-course-status-segment.ld-course-status-seg-price {
+  display: none;
+}
+.learndash-wrapper .ld-button {
+  border-radius: 100px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.learndash-wrapper .ld-expand-button .ld-text {
+  text-transform: uppercase;
+}
+.ld-icon {
+  line-height: inherit;
+}
+.learndash-wrapper .ld-course-status.ld-course-status-not-enrolled .ld-button {
+  text-transform: uppercase;
+}
+.post-type-archive-sfwd-courses .sfwd-courses {
+  margin-bottom: 30px;
+  background: #fff;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+}
+.post-type-archive-sfwd-courses .ld-course-list-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sfwd-courses .post-thumbnail img {
+  width: 100%;
+}
+.sfwd-courses .caption {
+  padding: 0 25px 10px;
+}
+.learndash-wrapper .ld-topic-list.ld-table-list .ld-table-list-lesson-details .ld-lesson-list-steps {
+  font-weight: 600;
+}
+.learndash-wrapper .ld-content-actions > a {
+  font-size: 100%;
+}
+.learndash-wrapper .learndash_mark_complete_button,
+.learndash-wrapper #learndash_mark_complete_button {
+  border-radius: 100px;
+  font-weight: 700;
+  font-size: .90em;
+}
+.learndash-wrapper .ld-breadcrumbs .ld-breadcrumbs-segments {
+  font-size: .90em;
+}
+.learndash-wrapper .ld-breadcrumbs .ld-breadcrumbs-segments span a {
+  font-weight: 500;
+}
+.learndash-wrapper .ld-course-status .ld-status {
+  border-radius: 100px;
+  padding: 11px 22px;
+  line-height: 1.5;
+  font-size: 13px;
+}
+.learndash-wrapper .ld-breadcrumbs {
+  border-radius: 0px;
+  padding: .7em 1em;
+}
+.learndash-wrapper .ld-course-status.ld-course-status-enrolled {
+  border-radius: 0;
+  padding: .7em 1em;
+}
+.sfwd-courses .ld_course_grid_price {
+  background: #214772;
+  box-shadow: none;
+  color: #fff;
+  text-shadow: none;
+  position: absolute;
+  font-size: 14px;
+  left: 7px;
+  top: 10px;
+  padding: 3px 10px;
+  z-index: 2;
+  font-weight: bold;
+}
+.sfwd-courses .ld_course_grid_price:before,
+.sfwd-courses .ld_course_grid_price:before {
+  border: 4px solid transparent;
+  border-top: 4px solid #214772;
+  border-right: 4px solid #214772;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+.learndash-course-student-message span {
+  font-size: 15px !important;
+}
+.widget.ld-related-course-widget {
+  margin-top: 25px;
+}
+.leaarndash-releted-course-two .single-course {
+  clear: both;
+  margin-top: 35px;
+  display: block;
+  overflow: hidden;
+}
+.leaarndash-releted-course-two .ld-course-thumbnail {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+  width: 40%;
+}
+.leaarndash-releted-course-two .ld-course-thumbnail img {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+}
+.leaarndash-releted-course-two .content-body {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+.leaarndash-releted-course-two .title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 0;
+  transition: all 0.5s ease;
+}
+.leaarndash-releted-course-two .title:hover {
+  color: #214772;
+  transition: all 0.5s ease;
+}
+.leaarndash-releted-course-two .lp-enroll {
+  color: #214772;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/*--------------------------------------------------------------
+# Notice Css
+--------------------------------------------------------------*/
+.edumodo-notice article.notice,
+.edumodo-notice .type-notice {
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background: white;
+  border: 0px solid #000;
+}
+.edumodo-notice article.notice:hover,
+.edumodo-notice .type-notice:hover {
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+}
+.edumodo-notice article.notice figure,
+.edumodo-notice .type-notice figure {
+  position: relative;
+}
+.edumodo-notice article.notice figure a:before,
+.edumodo-notice .type-notice figure a:before {
+  position: absolute;
+  content: "";
+  background-color: rgba(36, 44, 94, 0.8);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.edumodo-notice article.notice figure a:after,
+.edumodo-notice .type-notice figure a:after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  color: #242c5e;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 45px;
+  width: 45px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  content: "\f19d";
+  font-family: FontAwesome;
+  border-radius: 50%;
+}
+.edumodo-notice article.notice .notice-details,
+.edumodo-notice .type-notice .notice-details {
+  padding: 30px;
+}
+.edumodo-notice article.notice .notice-details .entry-header .notice-entry-title,
+.edumodo-notice .type-notice .notice-details .entry-header .notice-entry-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.edumodo-notice article.notice .notice-details .entry-header .notice-entry-title a,
+.edumodo-notice .type-notice .notice-details .entry-header .notice-entry-title a {
+  color: #333;
+}
+.edumodo-notice article.notice .notice-details .entry-header .notice-entry-title a:hover,
+.edumodo-notice .type-notice .notice-details .entry-header .notice-entry-title a:hover {
+  color: #214772;
+}
+.edumodo-notice article.notice .notice-details .notice-meta,
+.edumodo-notice .type-notice .notice-details .notice-meta {
+  margin-bottom: 10px;
+  color: #808080;
+  font-size: 14px;
+}
+.edumodo-notice article.notice .notice-details .notice-meta span,
+.edumodo-notice .type-notice .notice-details .notice-meta span {
+  margin-right: 10px;
+}
+.edumodo-notice article.notice .notice-details .notice-meta .post-date i,
+.edumodo-notice .type-notice .notice-details .notice-meta .post-date i {
+  padding-right: 3px;
+}
+.edumodo-notice article.notice .notice-details .notice-meta .post-date a,
+.edumodo-notice .type-notice .notice-details .notice-meta .post-date a {
+  padding-left: 3px;
+  color: #808080;
+}
+.edumodo-notice article.notice .notice-details .notice-meta .post-view i,
+.edumodo-notice .type-notice .notice-details .notice-meta .post-view i {
+  padding-right: 3px;
+}
+.edumodo-notice article.notice .notice-details .entry-content p,
+.edumodo-notice .type-notice .notice-details .entry-content p {
+  margin-bottom: 5px;
+  color: #808080;
+}
+.edumodo-notice article.notice:hover figure a:before,
+.edumodo-notice .type-notice:hover figure a:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.edumodo-notice article.notice:hover figure a:after,
+.edumodo-notice .type-notice:hover figure a:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.edumodo-notice .hentry {
+  margin-bottom: 25px;
+}
+.single-notice .post-cat {
+  color: #808080;
+  font-size: 14px;
+}
+.single-notice .post-cat a {
+  position: relative;
+  padding-right: 8px;
+  color: #666;
+}
+.single-notice .post-cat a:after {
+  content: ",";
+  position: absolute;
+  color: #808080;
+}
+.single-notice .post-cat a:hover {
+  color: #214772;
+}
+.single-notice .post-cat a:last-child:after {
+  display: none;
+}
+.edumodo-notice-1 .notice {
+  box-shadow: 1px 2px 9px #00000017;
+}
+.edumodo-notice-1 .notice .notice-details {
+  padding: 5px 30px;
+}
+.edumodo-notice-1 .notice .notice-details .entry-header {
+  margin: 20px 0 0;
+}
+.edumodo-notice-1 .notice .notice-details .entry-header .notice-entry-title {
+  line-height: 26px;
+}
+.edumodo-notice-1 .notice .notice-details .notice-meta {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.edumodo-notice-1 .notice .notice-details .notice-meta span {
+  padding-right: 15px;
+}
+/*--------------------------------------------------------------
+# Testimonial Css
+--------------------------------------------------------------*/
+.edumodo-testimonial .inner-wrapper {
+  text-align: center;
+}
+.edumodo-testimonial .inner-wrapper .inner-image {
+  text-align: center;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper {
+  transition: all 0.3s ease;
+  padding: 40px 25px 40px 15px;
+  overflow: hidden;
+  margin: 10px 0;
+  position: relative;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1);
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimoni-image {
+  margin: 0;
+  width: 90px;
+  height: 90px;
+  min-height: 90px;
+  min-width: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 5px 23.75px 1.25px rgba(46, 61, 73, 0.2);
+}
+@media all and (min-width: 0px) and (max-width: 768px) {
+  .edumodo-testimonial .edumodo-testimoni-wrapper .testimoni-image {
+    min-height: 200px;
+    min-width: 200px;
+    margin-bottom: 20px;
+  }
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .desc {
+  margin-bottom: 20px;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .name-des .name {
+  margin-top: 5px;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .name-des.position-right {
+  display: flex;
+  align-items: center;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .name-des.position-right .designation {
+  margin-left: 10px;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .name-des.position-bottom {
+  display: block;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper .testimony .name-des.position-bottom .designation {
+  display: block;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper:hover {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper:before {
+  font-family: FontAwesome;
+  content: "\f10e";
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 85px;
+  transition: all 0.3s ease;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper.align-right .position-right {
+  justify-content: flex-end;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper.align-center .position-right {
+  justify-content: center;
+}
+.edumodo-testimonial .edumodo-testimoni-wrapper.align-left .position-right {
+  justify-content: flex-start;
+}
+.edumodo-testimonial .owl-nav .owl-carousel-left,
+.edumodo-testimonial .owl-nav .owl-carousel-right {
+  position: absolute;
+  z-index: 999999;
+  top: 33%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding: 0;
+}
+.edumodo-testimonial .owl-nav .owl-carousel-left {
+  left: 0;
+}
+.edumodo-testimonial .owl-nav .owl-carousel-right {
+  right: 0;
+}
+@media (max-width: 768px) {
+  .edumodo-testimonial .owl-nav {
+    display: none;
+  }
+}
+.edumodo-testimonial .owl-dots {
+  margin: 30px auto;
+  text-align: center;
+}
+.edumodo-testimonial .owl-dots .owl-dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  border: 1px solid #3e5afb;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 0;
+  background: #3e5afb;
+}
+.edumodo-testimonial .owl-dots .owl-dot.active {
+  background: #214772;
+  border-color: #214772;
+}
+/*--------------------------------------------------------------
+# Latest Post Css
+--------------------------------------------------------------*/
+.edumodo-latest-posts .latest-posts-1 {
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 25px 0px rgba(46, 61, 73, 0.2);
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+.edumodo-latest-posts .latest-posts-1 .post-thumbnail a img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-thumbnail:hover a img {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts .latest-posts-1:hover {
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body {
+  padding: 30px;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-meta {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #808080;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-meta span {
+  margin-right: 10px;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-meta span i {
+  margin-right: 5px;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-meta span a {
+  color: #808080;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-meta span a:hover {
+  color: #214772;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .post-entry-title {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .post-entry-title a:hover {
+  color: #214772;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .entry-content {
+  font-size: 16px;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .blog-btn {
+  font-size: 14px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .blog-btn a {
+  color: #214772;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .blog-btn a:hover {
+  color: #242c5e;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .blog-btn a:hover i {
+  margin-left: 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.edumodo-latest-posts .latest-posts-1 .post-content-body .blog-btn i {
+  margin-left: 8px;
+  font-size: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 {
+  background-color: #fff;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px rgba(255, 255, 255, 0.8);
+  overflow: hidden;
+  border-style: solid;
+  border-width: 0px 1px 3px 1px;
+  border-color: #ff6766;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 figure.post-thumbnail {
+  overflow: hidden;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 figure.post-thumbnail img {
+  height: 250px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 figure.post-thumbnail img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body {
+  text-align: center;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .post-entry-title {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fc4d2c;
+  font-weight: 700;
+  text-align: center;
+  margin: 25px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .post-entry-title a {
+  color: #333333;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta {
+  border-bottom: 1px dashed;
+  border-color: #fc4d2c;
+  padding-bottom: 25px;
+  font-weight: bold;
+  margin: 0 30px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-date {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-date a {
+  color: #00bcd4;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-date:before {
+  position: absolute;
+  height: 15px;
+  width: 2px;
+  background: #4fac1c;
+  content: "";
+  right: -12px;
+  top: 4px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-cat {
+  display: inline-block;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-cat ul.post-categories {
+  list-style: none;
+  padding: 0;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-cat ul.post-categories li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-meta .post-cat ul.post-categories li a {
+  color: #fc4d2c;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .entry-content {
+  font-weight: bold;
+  padding: 30px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body footer.blog-entry-footer {
+  padding: 0 30px 30px 30px;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .blog-btn {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 25px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts.kindergarten .latest-posts-2 .post-content-body .blog-btn a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+2) .latest-posts-2 {
+  border-color: #1aa943;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+2) .entry-meta {
+  border-color: #1aa943;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+2) .entry-meta .post-date:before {
+  background-color: #1aa943;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+2) .entry-meta .post-cat ul.post-categories li a {
+  color: #1aa943;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+2) .post-content-body .blog-btn {
+  background-image: url(../images/btn-2.png);
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+3) .latest-posts-2 {
+  border-color: #039bf8;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+3) .entry-meta {
+  border-color: #039bf8;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+3) .entry-meta .post-date:before {
+  background-color: #039bf8;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+3) .entry-meta .post-cat ul.post-categories li a {
+  color: #039bf8;
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+3) .post-content-body .blog-btn {
+  background-image: url(../images/btn-3.png);
+}
+.edumodo-latest-posts.kindergarten .blog-content-wrapper:nth-child(3n+1) .post-content-body .blog-btn {
+  background-image: url(../images/btn-1.png);
+}
+/*--------------------------------------------------------------
+# Event element css
+--------------------------------------------------------------*/
+.edumodo-event-1 .row {
+  margin: 0;
+}
+.edumodo-event-1 .event-wrapper {
+  padding: 30px 20px;
+  transition: all 0.5s ease;
+  color: #fff;
+}
+.edumodo-event-1 .event-wrapper:hover {
+  transform: scale(0.95, 0.95);
+  transition: all 0.5s ease;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-title h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  font-weight: bold;
+  line-height: 24px;
+  transition: all 0.3s ease;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-title h2:hover {
+  transition: all 0.3s ease;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-description {
+  margin: 10px 0;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-featured-image {
+  max-height: 180px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .edumodo-event-1 .event-wrapper .e-single-event .e-featured-image {
+    max-height: 160px;
+  }
+}
+.edumodo-event-1 .event-wrapper .e-single-event .link-to-main-post {
+  color: #fff;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-time.date-top {
+  margin-bottom: 15px;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-time.date-middle {
+  margin: 10px 0;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-event-time.date-bottom {
+  margin-top: 10px;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-featured-image.image-top {
+  margin: 10px 0 20px;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-featured-image.image-middle {
+  margin: 20px 0;
+}
+.edumodo-event-1 .event-wrapper .e-single-event .e-featured-image.image-bottom {
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  .edumodo-event-1 {
+    padding: 0 10px;
+  }
+}
+
+/*------------------------------------------- 
+---------- Pagination -------------
+--------------------------------------------*/
+.edumodo-pagination {
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+.edumodo-pagination nav.navigation.pagination {
+  overflow: hidden;
+  margin-top: 45px;
+  display: initial;
+}
+.edumodo-pagination .page-numbers {
+  height: 48px;
+  width: 48px;
+  background: white;
+  display: inline-block;
+  line-height: 48px;
+  color: #808080;
+  transition: all 0.3s ease;
+  margin-left: 2px;
+  box-shadow: 1px 4px 5px rgba(46, 61, 73, 0.11);
+  border-radius: 100px;
+}
+.edumodo-pagination .page-numbers:hover {
+  color: #214772;
+  transition: all 0.3s ease;
+}
+.edumodo-pagination .page-numbers i {
+  font-size: 14px;
+}
+.edumodo-pagination .current {
+  background: #214772;
+  color: white;
+  border-radius: 100px;
+}
+.edumodo-pagination .current:hover {
+  color: white;
+}
+/*------------------------------------------- 
+---------- Blog list pages -------------
+--------------------------------------------*/
+.blog .content-area {
+  margin-bottom: 80px;
+}
+.breadcrumbs {
+  position: relative;
+  font-size: 14px;
+  color: white;
+}
+.breadcrumbs a {
+  color: white;
+}
+.breadcrumbs a:hover {
+  color: #eee;
+}
+.breadcrumbs li {
+  display: inline-block;
+  color: white;
+}
+.breadcrumbs li a {
+  color: white;
+}
+.breadcrumbs li a:hover {
+  color: #eee;
+}
+.single .absolute-top-space,
+.archive .absolute-top-space {
+  margin-top: 85px;
+}
+.post-type-archive-tx-course .content-area {
+  margin-bottom: 60px;
+}
+.post-type-archive-tx-course .content-area .tx-course {
+  box-shadow: 1px 2px 9px #00000017;
+}
+.post-type-archive-tx-course .content-area .tx-course .entry-meta.course-meta {
+  margin: 0px 0 20px;
+  font-size: 14px;
+}
+.post-type-archive-tx-course .content-area .tx-course .entry-meta.course-meta span {
+  padding-right: 10px;
+}
+.post-type-archive-tx-course .content-area .tx-course .course-details {
+  padding: 20px 20px 0px;
+}
+.archive.post-type-archive-teacher .content-area {
+  margin-bottom: 50px;
+}
+/*--------------------------------------------------------------
+# Single Post Css
+--------------------------------------------------------------*/
+.single-post {
+  clear: both;
+  background: #fff;
+}
+.single-post .post-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+.single-post .post-thumbnail .post-triangle {
+  position: absolute;
+  top: 0;
+  border-bottom: 65px solid transparent;
+  border-right: 65px solid #214772;
+  right: 0;
+  z-index: 6;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+.single-post .post-thumbnail .post-triangle span {
+  position: absolute;
+  top: 6px;
+  left: 37px;
+  color: #fff;
+  font-size: 14px;
+}
+.single-post .post-thumbnail img {
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+.single-post .sticky-post {
+  padding-right: 15px;
+}
+.single-post .entry-header {
+  align-items: center;
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 55px;
+}
+.single-post .entry-header .entry-title {
+  margin-bottom: 30px;
+  padding-top: 25px;
+  font-size: 30px;
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 700;
+}
+.single-post .entry-header .entry-title a {
+  color: #333;
+  font-weight: 700;
+}
+.single-post .entry-meta {
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.single-post .entry-meta span {
+  font-size: 14px;
+  display: inline-block;
+  color: #999;
+  margin-right: 50px;
+  font-weight: 700;
+}
+.single-post .entry-meta span a {
+  color: #666;
+  font-weight: 700;
+}
+.single-post .entry-meta span.post-author {
+  position: relative;
+}
+.single-post .entry-meta span.post-author:before {
+  background: #e8e9eb;
+  height: 50px;
+  position: absolute;
+  width: 1px;
+  content: "";
+  left: -25px;
+  top: 5px;
+}
+.single-post .entry-meta .post-cat {
+  position: relative;
+  color: #999;
+  display: inline-block;
+  font-weight: 700;
+}
+.single-post .entry-meta .post-cat:before {
+  background: #e8e9eb;
+  height: 50px;
+  position: absolute;
+  width: 1px;
+  content: "";
+  left: -25px;
+  top: 5px;
+}
+.single-post .entry-meta .post-cat .post-categories {
+  margin-bottom: 0;
+  font-weight: 700;
+  padding-left: 0;
+}
+.single-post .entry-meta .post-cat .post-categories li {
+  display: inline-block;
+  margin: 0;
+  padding-right: 5px;
+  position: relative;
+  font-size: 14px;
+}
+.single-post .entry-meta .post-cat .post-categories li a {
+  color: #666;
+}
+.single-post .entry-meta .post-cat .post-categories li a:hover {
+  color: #214772;
+}
+.single-post .entry-meta .post-cat .post-categories li:after {
+  position: absolute;
+  content: ",";
+}
+.single-post .entry-meta .post-cat .post-categories:last-child:after {
+  display: none;
+}
+.single-post .entry-content {
+  border-bottom: 1px solid #e8e9eb;
+  border-top: 1px solid #e8e9eb;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+.single-post .entry-content ul li {
+  margin-left: 20px;
+  padding: 2px 0;
+}
+.single-post .entry-content ul li ul {
+  margin-left: 0;
+}
+.single-post .entry-content ol {
+  margin-left: 0;
+}
+.single-post .entry-content ol li {
+  margin-left: 15px;
+}
+.single-post .entry-content blockquote {
+  margin-bottom: 30px;
+}
+.single-post .entry-footer-body {
+  padding: 0 30px 30px 30px;
+  overflow: hidden;
+}
+.single-post .post-tags-title {
+  font-weight: 700;
+  color: #999;
+  font-size: 14px;
+}
+.single-post .post-tags a {
+  font-size: 14px;
+  margin-left: 2px;
+  font-weight: 700;
+  color: #666;
+}
+.single-post .post-tags a:hover {
+  color: #214772;
+  background-color: transparent;
+}
+.single-post .edit {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+.single-post .edit a.post-edit-link:hover {
+  color: #214772;
+}
+.single-post .social-share {
+  margin: 0;
+}
+.single-post .social-share a {
+  color: #333;
+  padding: 0 5px;
+  border: 1px solid #333;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0;
+  border-radius: 100px;
+  margin-left: 5px;
+}
+.single-post .post-navigation {
+  clear: both;
+  border-top: 1px solid #e8e9eb;
+  padding: 30px;
+  background: #fff;
+}
+.single-post .post-navigation .nav-previous {
+  font-size: 14px;
+  color: #808080;
+}
+.single-post .post-navigation .nav-previous a span {
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.single-post .post-navigation .nav-previous a span:hover {
+  color: #214772;
+}
+.single-post .post-navigation .nav-next {
+  font-size: 14px;
+}
+.single-post .post-navigation .nav-next a span {
+  font-weight: 700;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.single-post .post-navigation .nav-next a span:hover {
+  color: #214772;
+}
+.single-post .related-post {
+  clear: both;
+  background: white;
+  padding: 30px 15px;
+}
+.single-post .related-post .related-post-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 25px 15px 0 15px;
+}
+.single-post .related-post .related-post-body {
+  box-shadow: 0px 3px 7px 0px rgba(56, 56, 56, 0.1);
+}
+.single-post .related-post .related-post-body .entry-header {
+  padding-left: 0;
+  display: inherit;
+  padding: 25px;
+}
+.single-post .related-post .related-post-body .entry-header .entry-title {
+  font-size: 16px;
+}
+.single-post .related-post .related-post-body .entry-header .entry-title a:hover {
+  color: #214772;
+}
+.single-post .related-post .entry-meta {
+  border-bottom: none;
+  font-size: 14px;
+  padding: 0;
+}
+.single-post .comment-respond .comment-reply-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.single-post label {
+  color: #666;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.single.single-post {
+  background: #F5f5f5;
+}
+.single-post .entry-meta {
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  margin-bottom: 15px;
+}
+.single-post .entry-meta span {
+  font-size: 14px;
+  margin-right: 0;
+  font-weight: 700;
+  background: #F5f5f5;
+  padding: 8px 20px;
+  margin-bottom: 8px;
+}
+.single-post .entry-meta .post-author:before {
+  display: none;
+}
+.single-post .entry-meta .post-cat:before {
+  display: none;
+}
+.single-post .entry-title {
+  padding-top: 0;
+  font-size: 24px;
+}
+.single-post .related-post .related-post-title {
+  font-size: 24px;
+}
+.single-post .related-post .related-post-title:before {
+  top: 100px;
+}
+/*------------------------------------------- 
+---------- Gallery content post single page next prev button -------------
+--------------------------------------------*/
+.single-post.format-gallery .owl-nav div {
+  background-color: rgba(236, 177, 1, 0.6);
+  height: 50px;
+  left: 0;
+  margin-top: -15px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 50px;
+  line-height: 50px;
+  opacity: 0.6;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+.single-post.format-gallery .owl-nav div i {
+  font-size: 20px;
+}
+.single-post.format-gallery:hover .owl-nav div {
+  opacity: 1;
+}
+.single-post.format-gallery .owl-nav .owl-next {
+  left: auto;
+  right: 0;
+  transition: 0.3s ease-in-out;
+}
+.single-post.format-gallery .owl-nav .owl-prev:hover {
+  background: #242c5e;
+  color: #fff;
+}
+.single-post.format-gallery .owl-nav .owl-next:hover {
+  background: #242c5e;
+  color: #fff;
+}
+/*--------------------------------------------------------------
+# Video Popup Css
+--------------------------------------------------------------*/
+/* Style 1 */
+.edumodo-video-popup-wrapper {
+  position: relative;
+}
+.edumodo-video-popup-wrapper .video i {
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #ffc600;
+  color: #07294d;
+  border-radius: 50%;
+}
+.edumodo-video-popup-wrapper a.play-icon-text {
+  color: #214772;
+}
+.edumodo-video-popup-wrapper .play-btn {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(rgba(255, 188, 0, 0.94) 60%, #ffffff 62%);
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 0px 25px 3px rgba(255, 255, 255, 0.8);
+}
+.edumodo-video-popup-wrapper .play-btn:before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate1 2s;
+  animation: pulsate1 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.75);
+  top: -25%;
+  left: -25%;
+  background: rgba(198, 16, 0, 0);
+}
+.edumodo-video-popup-wrapper .play-btn:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  transform-origin: center center;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #fff;
+  z-index: 100;
+  -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.edumodo-video-popup-wrapper .video-popup-4 {
+  position: relative;
+}
+.edumodo-video-popup-wrapper .video-play-button {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-sizing: content-box;
+  display: block;
+  border-radius: 50%;
+  padding: 18px 20px 18px 28px;
+}
+.edumodo-video-popup-wrapper .video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fdbd00;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+.edumodo-video-popup-wrapper .video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #fdbd00;
+  border-radius: 50%;
+  transition: all 200ms;
+}
+.edumodo-video-popup-wrapper .video-play-button img {
+  position: relative;
+  z-index: 3;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.edumodo-video-popup-wrapper .video-play-button span {
+  display: block;
+  position: relative;
+  z-index: 3;
+  width: 0;
+  height: 0;
+  border-left: 32px solid #fff;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+}
+.edumodo-video-popup-wrapper .video-popup-5 {
+  position: relative;
+}
+.edumodo-video-popup-wrapper .stroke-dotted {
+  opacity: 0;
+  stroke-dasharray: 4,5;
+  stroke-width: 1px;
+  transform-origin: 50% 50%;
+  animation: spin 4s infinite linear;
+  transition: opacity 1s ease, stroke-width 1s ease;
+}
+.edumodo-video-popup-wrapper .stroke-solid {
+  stroke-dashoffset: 0;
+  stroke-dashArray: 300;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+.edumodo-video-popup-wrapper .icon {
+  transform-origin: 50% 50%;
+  transition: transform 200ms ease-out;
+}
+.edumodo-video-popup-wrapper #play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.edumodo-video-popup-wrapper #play:hover .stroke-dotted {
+  stroke-width: 4px;
+  opacity: 1;
+}
+.edumodo-video-popup-wrapper #play:hover .stroke-solid {
+  opacity: 0;
+  stroke-dashoffset: 300;
+}
+.edumodo-video-popup-wrapper #play:hover .icon {
+  transform: scale(1.05);
+}
+/*====== Video popup round =====*/
+.edumodo-video-popup-round {
+  position: relative;
+  border: 3px solid #214772;
+}
+.edumodo-video-popup-round img {
+  display: block;
+  border-radius: 6px;
+  position: relative;
+}
+.edumodo-video-popup-round .icon-video {
+  position: absolute;
+  border-radius: 100%;
+  border: 7px solid #dcdcdc;
+  width: 75px;
+  height: 75px;
+  background: #FFF;
+  color: #214772;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: 12;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edumodo-video-popup-round .icon-video:hover {
+  background: #214772;
+  color: #fff!important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.edumodo-video-popup-round:hover:after {
+  background-color: #214772cc;
+}
+.edumodo-video-popup-round:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  transition: .4s;
+  border-radius: 6px;
+}
+.edumodo-video-popup-left {
+  position: relative;
+  margin-top: 25px;
+}
+.edumodo-video-popup-left img {
+  display: block;
+  border-radius: 6px;
+  position: relative;
+}
+.edumodo-video-popup-left:before {
+  content: '';
+  border: 30px solid #214772;
+  background: none;
+  position: absolute;
+  top: -15px;
+  right: -30px;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.edumodo-video-popup-left:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  transition: .4s;
+  border-radius: 6px;
+}
+.edumodo-video-popup-left .icon-video {
+  position: absolute;
+  border-radius: 100%;
+  border: 7px solid #dcdcdc;
+  width: 75px;
+  height: 75px;
+  background: #FFF;
+  color: #214772;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: 12;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edumodo-video-popup-left .icon-video:hover {
+  background: #214772;
+  color: #fff!important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.edumodo-video-popup-left .icon-video:hover:after {
+  background-color: #214772cc;
+}
+@-webkit-keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+@keyframes pulsate1 {
+  0% {
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75), 0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

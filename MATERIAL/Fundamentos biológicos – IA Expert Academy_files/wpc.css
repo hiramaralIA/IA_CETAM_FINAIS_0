@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: none !important;
+  margin: 0;
+}
+
+.webPushIframe {
+  position: absolute;
+  z-index: 999999999;
+  display: block;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  max-width: 450px;
+  min-width: 320px;
+  min-height: 130px;
+  height: 100%;
+}
+
+.webPushSolicitation {
+  width: 445px;
+  height: auto;
+  background: none;
+  border: 0 !important;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.06) !important;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.06) !important;
+}
+
+.webPushSolicitation .webPushContainner {
+  width: 445px;
+  height: auto;
+  border-radius: 4px!important;
+}
+
+.webPushSolicitation .webPushContainner .webPushImage {
+  width: 25%;
+  height: auto;
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.webPushSolicitation .webPushContainner .webPushImage img {
+  width: 85px;
+  height: 85px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.webPushSolicitation .webPushContainner .webPushTexts {
+  display: block;
+  float: right;
+  width: 68%;
+  padding: 20px 20px 0px 0px;
+  margin-left: 5px;
+}
+
+.webPushSolicitation .webPushContainner .webPushTexts .webPushTitle {
+  margin-bottom: 10px;
+  color: #364656;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  line-height: 26.5px;
+  word-break: break-word;
+}
+
+.webPushSolicitation .webPushContainner .webPushTexts .webPushText {
+  word-break: break-word;
+  margin-right: 10px;
+  max-height: 74px;
+  overflow: hidden;
+  height: auto;
+  width: 300px;
+  color: #364656;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  line-height: 26.5px;
+}
+
+.webPushSolicitation .webPushContainner .webPushPowered {
+  width: 428px;
+  height: 45px;
+  display: inline-block;
+  text-align: right;
+  margin: 12px 0px -3px 3px
+}
+
+.webPushSolicitation .webPushContainner .webPushButtons {
+  display: block;
+  width: 415px;
+  float: none;
+  margin: 20px auto;
+  font-family: "Open Sans",sans-serif;
+  font-size: 15px;
+}
+
+.webPushSolicitation .webPushContainner .webPushButtons .confirm {
+  display: block;
+  text-align: center;
+  float: right;
+  width: 47%;
+  margin-left: 0;
+  padding: 13px 2px;
+  border-radius: 2px;
+  border: 1px solid #E1E1E1;
+  cursor: pointer;
+}
+
+.webPushSolicitation .webPushContainner .webPushButtons .deny {
+  display: block;
+  text-align: center;
+  float: left;
+  width: 47%;
+  margin-left: 0;
+  padding: 13px 2px;
+  border-radius: 2px;
+  border: 1px solid #E1E1E1;
+  cursor: pointer;
+}
+
+.webPushConfirmation {
+  max-width: 450px;
+  min-width: 160px;
+  background: none;
+  border: 0 !important;
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.25) !important;
+  -webkit-box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.25) !important;
+}
+
+.webPushConfirmation .webPushConfirmationImage {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.webPushConfirmation .webPushConfirmationImage img {
+  max-width: 400px;
+  max-height: 100px;
+}
+
+.webPushConfirmation .webPushConfirmationTexts {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.webPushConfirmation .webPushConfirmationTexts .webPushConfirmationTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#email {
+  display:block;
+  width:400px;
+  border-radius: 0;
+  font-size: 13px;
+  padding: 0 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  height: 45px;
+  margin: 0 auto 3px;
+}
+#consent-label {
+  display: block;
+  margin: 0px 14px;
+  text-align: left;
+  width: 405px;
+  word-break: break-word;
+  color: #999999;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  line-height: 20.4px;
+}
+
+input[type="checkbox"] {
+  margin-left: 3px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 430px) {
+  .webPushIframe {
+    min-height: 250px;
+  }
+  .webPushSolicitation {
+    width: 100%;
+  }
+  .webPushSolicitation .webPushContainner {
+    width: 100%;
+  }
+  .webPushSolicitation .webPushContainner .webPushImage {
+    width: 100%;
+  }
+  .webPushSolicitation .webPushContainner .webPushTexts {
+    width: 100%;
+    padding: 0;
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  .webPushSolicitation .webPushContainner .webPushTexts .webPushTitle {
+    min-height: 120px;
+    width: 100%;
+    overflow: visible;
+  }
+  .webPushSolicitation .webPushContainner .webPushTexts .webPushText {
+    min-height: 90px;
+    width: 100%;
+    overflow: visible;
+  }
+  .webPushSolicitation .webPushContainner .webPushButtons {
+    flex-shrink: 0;
+    display: block;
+    width: 100%;
+    float: none;
+    margin: 15px 0 0 0;
+  }
+  .webPushSolicitation .webPushContainner .webPushButtons .deny {
+    width: 45%;
+    margin-left: 5px;
+  }
+  .webPushSolicitation .webPushContainner .webPushButtons .confirm {
+    width: 45%;
+    margin-right: 8px;
+  }
+  .webPushSolicitation .webPushContainner .webPushPowered {
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: 12px auto;
+  }
+  #email {
+    width: 93%;
+  }
+  #consent-label {
+    width: 96%;
+    margin: 0px 9px;
+  }
+  input[type="checkbox"] {
+    margin-left: 0;
+  }
+}
+
+

@@ -1,0 +1,30 @@
+#edumodo-letest-posts3 > div > div:nth-last-child(1n+0) > article {
+  margin-left: 20px;
+  margin-right: 0;
+}
+#edumodo-letest-posts3 > div > div:nth-last-child(2n+0) > article {
+  margin-right: 20px;
+  margin-left: 0;
+}
+#edumodo-letest-posts3 figure.post-thumbnail {
+  padding-bottom: 12px;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content h4.post-entry-title {
+  padding-bottom: 5px;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content .posts3-content-body {
+  background-color: transparent;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content .posts3-content-body h4.post-entry-title {
+  font-size: 28px;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content .posts3-content-body .blog-entry-footer {
+  display: block;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content .posts3-content-body .post-comment {
+  display: inline-block;
+}
+#edumodo-letest-posts3 .edumodo-letest-posts3-content .posts3-content-body .post-date {
+  display: inline-block;
+  float: right;
+}

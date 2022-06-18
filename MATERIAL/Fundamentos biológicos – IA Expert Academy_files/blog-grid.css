@@ -1,0 +1,296 @@
+/* ---------------------------------- Posts Carousel ---------------------------------- */
+.edumodo-posts-carousel {
+  clear: both;
+  max-width: none;
+}
+@media only screen and (min-width: 1024px) {
+  .edumodo-posts-carousel {
+    max-width: 100%;
+  }
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .hentry {
+  background: #fff;
+  border-radius: 6px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: -webkit-box-shadow 0.25s ease 0s;
+  transition: -webkit-box-shadow 0.25s ease 0s;
+  transition: box-shadow 0.25s ease 0s;
+  transition: box-shadow 0.25s ease 0s, -webkit-box-shadow 0.25s ease 0s;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .hentry:hover {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image {
+  position: relative;
+  overflow: hidden;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image img {
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  max-width: 100%;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image {
+  position: relative;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image:before {
+  background: #00000052;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info {
+  display: block;
+  text-align: center;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-entry-info {
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-post-title {
+  padding: 10px;
+  margin: 0;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out 0s;
+  transition: opacity 0.4s ease-in-out 0s;
+}
+@media only screen and (max-width: 1024px) {
+  .edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-post-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-post-title a {
+  display: inline;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  border-bottom: 1px solid transparent;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-post-title a:hover {
+  border-bottom: 2px solid #ccc;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-terms {
+  display: block;
+  color: #f9f9f9;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-in-out 0s;
+  transition: opacity 0.4s ease-in-out 0s;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-terms a {
+  color: #ddd;
+  position: relative;
+  display: inline;
+  zoom: 1;
+  font-size: 14px;
+  line-height: 22px;
+  font-style: italic;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image .edumodo-image-info .edumodo-terms a:hover {
+  color: #fff;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image:hover .edumodo-image-info .edumodo-post-title,
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-project-image:hover .edumodo-image-info .edumodo-terms {
+  opacity: 1;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  clear: none;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-title:after,
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-title:before {
+  display: none;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-title a {
+  color: #333333;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-title a:hover {
+  color: #888;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-entry-meta span {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  color: #999;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-entry-meta span a {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  font-style: normal;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-entry-meta span:after {
+  content: '//';
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-entry-meta span:first-child {
+  border: none;
+  padding-left: 0;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-entry-meta span:last-child:after {
+  display: none;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-summary {
+  padding: 0;
+  margin: 10px auto 0;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .entry-summary:before {
+  width: 35px;
+  height: 1px;
+  background: #aaa;
+  display: block;
+  content: "";
+  text-align: center;
+  margin: 0 auto 15px;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-category-list {
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-category-list:after {
+  width: 35px;
+  height: 1px;
+  background: #aaa;
+  display: block;
+  content: "";
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-category-list:after {
+  text-align: center;
+  margin: 10px auto 10px;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .edumodo-entry-text-wrap .edumodo-category-list a {
+  font-style: italic;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.edumodo-posts-carousel .edumodo-posts-carousel-item .type-post .edumodo-entry-text-wrap .entry-summary:before {
+  display: none;
+}
+/* dot */
+.edumodo-container ul.slick-dots {
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+  padding: 0;
+  margin: 0 ;
+}
+.edumodo-container ul.slick-dots li {
+  margin: 0 8px 0 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 0;
+}
+.edumodo-container ul.slick-dots li button {
+  padding: 0;
+  background: #aaa;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  box-shadow: none;
+  transition: background 0.3s ease-in-out 0s;
+  font-size: 0;
+  outline: none;
+}
+.edumodo-dark-bg .edumodo-container ul.slick-dots li button {
+  background: #888;
+  border-color: #888;
+}
+.edumodo-container ul.slick-dots li button:hover,
+.edumodo-container ul.slick-dots li.slick-active button {
+  background: none;
+  border-color: #aaa;
+}
+.edumodo-container ul.slick-dots li.slick-active button {
+  width: 14px;
+  height: 14px;
+}
+/*Nav*/
+.edumodo-container i.navleft.fa.slick-arrow,
+.edumodo-container i.navright.fa.slick-arrow {
+  position: absolute;
+  bottom: initial;
+  left: initial;
+  right: initial;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: -15px 0 0;
+}
+.edumodo-container i.navleft.fa.slick-arrow,
+.edumodo-container i.navright.fa.slick-arrow {
+  text-shadow: none;
+  background: #fff;
+  border: none;
+  padding: 0;
+  opacity: 0;
+  font-size: 22px;
+  color: #666;
+  overflow: hidden;
+  box-shadow: none;
+  outline: none;
+  text-indent: 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: 1;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+}
+.edumodo-container i.navright.fa.slick-arrow {
+  right: 0;
+}
+.edumodo-container:hover i.navleft.fa.slick-arrow,
+.edumodo-container:hover i.navright.fa.slick-arrow {
+  opacity: 1;
+  margin: -15px -15px 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}

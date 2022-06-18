@@ -1,0 +1,73 @@
+(function($){
+    $('.dynamic-category-wrapper .multiple-cat a.cat-item').on('click', function(e){
+        var catID = $(this).parent().attr('id');
+        var rootID = '#dynamic-category-content-' + catID;
+        e.preventDefault(); // prevent execute
+        $(rootID).find('div#dynamic-category .dynamic-category-wrapper .multiple-cat a.cat-item').removeClass('active'); // remove existing content
+        $(this).addClass('active'); // add active class to existing item
+        loadActiveData($(this), catID);
+    });
+
+    function injectOwl(selector, column){
+        $(selector).owlCarousel({
+              loop:false,  
+              nav:true,
+              dots:false,
+              items: 12/column,
+              navClass: ['owl-carousel-left','owl-carousel-right'],
+              navText: ['<i class="glyph-icon flaticon-left-arrow"></i>', '<i class="glyph-icon flaticon-right-arrow"></i>'],
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:12/column
+                  }
+              }
+          });
+    }
+    function loadActiveData($handle, catID){
+        var url = $handle.attr('href');
+        var rootID = '#dynamic-category-content-' + catID;
+        $(rootID).find('.ajax-overlay').addClass('loading');
+        var coursePrice = $(rootID).find('.dynamic-cat-post-list').attr('data-coursePrice');
+        var courseUser = $(rootID).find('.dynamic-cat-post-list').attr('data-courseUser');
+        var courseCategory = $(rootID).find('.dynamic-cat-post-list').attr('data-courseCategory');
+        var showRating = $(rootID).find('.dynamic-cat-post-list').attr('data-showRating');
+        var averageRating = $(rootID).find('.dynamic-cat-post-list').attr('data-averageRating');
+        var postsColumn = $(rootID).find('.dynamic-cat-post-list').attr('data-postsColumn');
+        var activeCarousel = $(rootID).find('.dynamic-cat-post-list').attr('data-activeCarousel');
+
+        $.ajax({
+            url: url,
+            type: 'post',
+            data: {
+                coursePrice: coursePrice,
+                courseUser: courseUser,
+                courseCategory: courseCategory,
+                showRating: showRating,
+                averageRating: averageRating,
+                averageRating: averageRating,
+                postsColumn: postsColumn,
+                activeCarousel: activeCarousel,
+            },
+            beforeSend: function() {
+                $(rootID).find('.dynamic-layout .dynamic-cat-post-list').append( '<div class="ajax-content"><div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div></div>' );
+            },
+            success: function( html ) {
+                setTimeout(function(){
+                    $(rootID).find('.dynamic-cat-post-list').remove();
+                    $(rootID).find('.dynamic-layout').append(html);
+                    injectOwl( $(rootID).find('.lp-dynamic-course-active'), postsColumn);
+                }, 500)
+            },
+            error: function(e) {
+                console.log(e);
+            }
+        });
+        return false;
+    }
+})(jQuery);
